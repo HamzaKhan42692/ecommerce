@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;500&display=swap');
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: var(--sm-font);
+}
+/* navar */
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+.navbar-brand img{
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: #e5345b !important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0,0,0,0.1);
+}
+/* media */
+@media(min-width:992px) {
+    
+    .nav-item{border-bottom: none;
+    }
+}
+
+/* header */
+#header{
+   margin-top: 8%;
+}
+#header img{
+    height: 400px;
+}
+/* collection */
+h2{
+    font-family: var(--lg-font);
+}

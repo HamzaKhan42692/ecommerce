@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light
+     bg-white py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center" href="index.html">
+                <img src="images/logo.png" alt="icon" >
+                <span class="text-upparcase fw-bold ms-1">Buy Time</span>
+            </a>
+
+            <button class="navbar-toggler border-o" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navmenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1">
+                        <a class="nav-link text-uppercase text-dark" href="#header">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1">
+                        <a class="nav-link text-uppercase text-dark" href="aboutus.html" >About Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-1">
+                        <a class="nav-link text-uppercase text-dark" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a class="nav-link text-uppercase text-dark" href="product.html">Products</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto text-center">
+                  <li class="nav-item px-2 py-2 border-0">
+                      <!-- <a class="nav-link text-uppercase text-dark" href="product.html"> <i class="fa fa-shopping-cart"></i></a> -->
+                      <button type="button" class="btn position-relative ">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                      </button>
+                  </li>
+              </ul>
+              <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item px-2 py-2 border-0">
+                    <!-- <a class="nav-link text-uppercase text-dark" href="product.html"><i class="fa fa-heart"></i></a> -->
+                    <button type="button" class="btn position-relative">
+                      <i class="fa fa-heart"></i>
+                      <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">15</span>
+                  </button>
+                </li>
+            </ul>
+
+
+            </div>
+        </div>
+       
+    </nav>
+
+    <!-- <div class="icon mt-3 me-5">
+      <button type="button" class="btn position-relative ">
+          <i class="fa fa-shopping-cart"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+      </button>
+      <button type="button" class="btn position-relative">
+          <i class="fa fa-heart"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">15</span>
+      </button>
+
+  </div> -->
+
+
+    <!-- navbar end -->
+    <!-- header -->
+    <header>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner mt-5">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="images/slider11.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/slider 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider 3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- collection -->
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="tittle text-center">
+                <h2 class="position-relative d-inline-block"> New Collection</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex  justify-content-center">
+                <button type="button" class="btn m-2 text-dark fs-5">T-shirts</button>
+                <button type="button" class="btn m-2 text-dark fs-5">All</button>
+                <button type="button" class="btn m-2 text-dark fs-5">Jeans</button>
+                <button type="button" class="btn m-2 text-dark fs-5">Mackup</button>
+                <button type="button" class="btn m-2 text-dark fs-5">Toys</button>
+                <button type="button" class="btn m-2 text-dark fs-5">Game</button>
+            </div>
+        </div>
+    </section>
+    <!-- collection-end-->
+    <!-- cards -->
+    <div class="card-group">
+        <div class="card">
+          <img src="images/product 1.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title">$80.0</h5>
+            <p class="card-text">HidrateSpark PRO Tritan Plastic - 24 oz. Smart Water Bottle + Bonus Straw Lid</p>
+            <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/product 2.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title">$200.3</h5>
+            <p class="card-text">Osprey Arcane Large Day.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/product 3.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">von Holzhausen The Watch Band Portfolio.</p>
+            <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="images/produt4.jpg" class="card-img-top h-55" alt="product">
+          <div class="card-body">
+            <h5 class="card-title">$999.</h5>
+            <p class="card-text"> iPhone 14 Pro</p>
+            <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/products 5.jpg" class="card-img-top" alt="product" height="735px">
+          <div class="card-body">
+            <h5 class="card-title">$890.50</h5>
+            <p class="card-text">iPhone 13 Pro Max</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/products7.jpg" class="card-img-top " alt="product" height="735px">
+          <div class="card-body">
+            <h5 class="card-title">$700</h5>
+            <p class="card-text">Ipad Mini 2020</p>
+            <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    <!-- cards end -->
+    <h2 class="display-1 text-center mt-3"> Trade Services</h2>
+    <!-- About Us -->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="images/about us 2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title display-5 fw-bolder ">Trade Assurance</h5>
+              <p class="card-text"> Order-Protection</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/about 3.jpg" class="card-img-top" alt="..." height="440px">
+            <div class="card-body">
+              <h5 class="card-title display-5 fw-bolder">Payment</h5>
+              <p class="card-text">Payment Solution.</p>
+            </div>
+          </div>
+        </div>
+        
+       
+      </div>
+    <!-- About Us End -->
+    <!-- footer -->
+    <div class="container my-5">
+        <!-- Footer -->
+        <footer
+                class="text-center text-lg-start text-white"
+                style="background-color: #3e4551"
+                >
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Buy Time</h5>
+      
+                  <p>
+                    first made waves in Pakistan’s e-commerce market after 
+                    its introduction in 2012. We have since grown to become Pakistan’s 
+                    largest platform for online shopping with a network spread across Asia in Pakistan,
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Customer Care</h5>
+      
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Help Center</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">How To Buy</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Returns & Refunds</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Privacy & Policy</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Trade services</h5>
+      
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Trade Assurance</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Trade Assurance</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Logistics services</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Letter of Credit</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+      
+              
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+      
+            <hr class="mb-4" />
+      
+            <!-- Section: CTA -->
+            <section class="">
+              <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">Register for free</span>
+                <button type="button" class="btn btn-outline-light btn-rounded">
+                  Sign up!
+                </button>
+              </p>
+            </section>
+            <!-- Section: CTA -->
+      
+            <hr class="mb-4" />
+      
+            <!-- Section: Social media -->
+            <section class="mb-4 text-center">
+              <!-- Facebook -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-facebook-f"></i
+                ></a>
+      
+              <!-- Twitter -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-twitter"></i
+                ></a>
+      
+              <!-- Google -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-google"></i
+                ></a>
+      
+              <!-- Instagram -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-instagram"></i
+                ></a>
+      
+              <!-- Linkedin -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-linkedin-in"></i
+                ></a>
+      
+              <!-- Github -->
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-github"></i
+                ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/"
+               >Buytime.com</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
+
+
+
+
+
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.1.js"></script>
+    <!-- js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- my js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
